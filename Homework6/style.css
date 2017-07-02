@@ -1,0 +1,470 @@
+/*--------------------------*/
+
+/*------COMMENT NAVIGATION------*/
+
+/*--------ABOUT ME PAGE---------*/
+
+/*1. nav --- Shared*/
+/*2.text and pic --- About Me*/
+/*3.footer --- Shared*/
+
+/*H--------HOME PAGE-------------*/
+
+/*1.nav --- Shared*/
+/*2.main content --- Home*/
+/*3.bottom content ---Home*/
+
+/*--------------------------*/
+
+/*----------CONTACT------------*/
+
+/*1.info --- Contact*/
+
+
+
+
+
+/*1. nav --- Shared*/
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background: url(images/hackerbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position:center center;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Spectral', serif;
+	font-family: 'Playfair Display', serif;
+}
+
+nav {
+	display:inline-block;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:100%;
+	text-align:center;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.linkunderline {
+	text-decoration:underline;	
+}
+
+.pageheader {
+	margin:0px;
+	margin-top:10px;
+	color:white;
+}
+
+li {
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+    list-style-type: none;
+}
+
+.logo {
+	background:url(images/catlogo.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:contain;
+	display:inline-block;
+	text-align:center;
+	width:140px;
+	height:140px;
+	float:right;
+	margin-top:-80px;
+	margin-right: 10px;
+}
+
+/*2.text and pic --- About Me*/
+
+.page {
+	margin-top:-11px;
+	text-align:center;
+}
+
+.container {
+	position:relative;
+	display:inline-block;
+	width:70%;
+	background-color: rgb(240, 240, 240);
+	margin:0px;
+	margin-top:35px;
+	margin-bottom:150px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+	border-radius:20px;
+	border:solid 2px;
+
+	background: url(images/boardtexture.jpg);
+	background-repeat:repeat;
+}
+
+.text {
+	display:inline-block;
+	width:50%;
+	float:left;
+	margin:0px;
+	padding:20px;
+	background-color:rgb(2, 8, 2);
+	border-radius:15px;
+	border:solid 2px;
+	opacity:0.85;
+}
+
+.textheader{
+	margin-top:5px;
+	color:white;
+}
+
+.textparagraph {
+	text-align:left;
+	color:white;
+}
+
+.picture {
+	display:inline-block;
+	float:right;
+	border-radius:10px;
+	width:48%;
+	height:350px;
+	overflow:hidden;
+	background: url(images/hackercat.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border:solid 2px;
+}
+
+.metalarm {
+	position:absolute;
+	background: url(images/arm.png);
+	width:380px;
+	height:280px;
+	right:0px;
+	top:0px;
+	margin-right:-135px;
+	margin-top:-70px;
+}
+
+.metalarm2 {
+	position:absolute;
+	background: url(images/arm2.png);
+	width:380px;
+	height:280px;
+	bottom:0px;
+	left:0px;
+	margin-left:-135px;
+	margin-bottom:-70px;
+}
+
+/*2.main content --- Home*/
+
+.page2 {
+	margin-top:-11px;
+	text-align:center;
+}
+
+.container2 {
+	position:relative;
+	display:inline-block;
+	width:70%;
+	background-color: rgb(240, 240, 240);
+	margin:0px;
+	margin-top:35px;
+	margin-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+	border-radius:20px;
+	border:solid 2px;
+
+	background: url(images/boardtexture.jpg);
+	background-repeat:repeat;
+}
+
+.textheader2 {
+	color:red;
+	font-family: 'Spectral', serif;
+}
+
+.textparagraph2 {
+	color:white;
+	font-family: 'Spectral', serif;
+	background-color: rgb(2, 8, 2);
+	border-radius:10px;
+	padding:10px;
+	opacity:0.8;
+	text-align:left;
+}
+
+/*3.bottom content ---Home*/
+
+.container2-2{
+	display:inline-block;
+	width:70%;
+	background-color:blue;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:15px;
+
+	background: url(images/boardtexturered.jpg);
+	background-repeat:repeat;
+}
+
+.content2-2{
+	margin-left:auto;
+	margin-right:auto;
+	padding:35px;
+	width:100%;
+}
+
+.firstrow{
+	display:inline-block;
+	width:100%;
+}
+
+.picture2 {
+	display:inline-block;
+	float:right;
+	border-radius:10px;
+	width:48%;
+	height:300px;
+	overflow:hidden;
+	background: url(images/cats.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border:solid 2px;
+}
+
+.textparagraph3 {
+	display:inline-block;
+	width:48%;
+	float:left;
+	margin:0px;
+	padding:20px;
+	background-color:rgb(2, 8, 2);
+	border-radius:15px;
+	opacity:0.85;
+	color:white;
+	text-align:right;
+}
+
+.secondrow{
+	margin-top:35px;
+	display:inline-block;
+	width:100%;
+}
+
+.textparagraph4{
+	display:inline-block;
+	width:48%;
+	float:right;
+	margin:0px;
+	padding:20px;
+	background-color:rgb(2, 8, 2);
+	border-radius:15px;
+	opacity:0.85;
+	color:white;
+	text-align:left;
+}
+
+.picture3{
+	display:inline-block;
+	float:left;
+	border-radius:10px;
+	width:48%;
+	height:350px;
+	overflow:hidden;
+	background: url(images/laptopcat.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border:solid 2px;
+}
+
+/*3.footer --- Shared*/
+
+footer {
+	color:white;
+	margin-top:-11px;
+	text-align:right;
+	position:relative;
+	width:70%;
+	background-color: rgb(240, 240, 240);
+	margin:0px;
+	margin-top:45px;
+	margin-bottom:50px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+	border-radius:20px;
+	background: url(images/boardtextureblack.jpg);
+	background-repeat:repeat;
+}
+
+/*1.info --- Contact*/
+
+.picture4{
+	display:inline-block;
+	float:right;
+	border-radius:10px;
+	width:48%;
+	height:350px;
+	overflow:hidden;
+	background: url(images/contactcat.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border:solid 2px;
+}
+
+@media screen and (max-width: 1200px) {
+	
+.text{
+	font-size:12px;
+}
+
+.textparagraph2 {
+	font-size:12px;	
+}
+
+.textparagraph3 {
+	font-size:12px;
+}
+
+.textparagraph4 {
+	font-size:12px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+.logo {
+	display:none;
+}
+
+.picture{
+	display:block;
+	width:100%;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+.picture2{
+	display:block;
+	width:100%;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+.picture3{
+	display:block;
+	width:100%;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+.text{
+
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	font-size:14px;
+}
+
+.textparagraph2 {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	font-size:14px;	
+}
+
+.textparagraph3 {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	font-size:14px;
+}
+
+.textparagraph4 {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	font-size:14px;
+}
+
+.picture4 {
+	display:block;
+	width:100%;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+
+.metalarm{
+	display:none;
+}
+
+.metalarm2{
+	display:none;
+}
+
+.container{
+	width:95%;
+	margin-bottom:-10px;
+}
+
+.container2{
+	width:95%;
+}
+
+.container2-2{
+	margin-top:-70px;
+	width:95%;
+}
+
+.picture {
+	height:200px;
+}
+
+.picture2{
+	height:200px;
+}
+
+.picture3{
+	height:200px;
+}
+
+.picture4{
+	height:200px;
+}
+
+footer{
+	width:95%;
+}
